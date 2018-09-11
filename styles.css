@@ -5,10 +5,7 @@ html {
 body {
   font-family: 'BioRhyme', 'Franklin Gothic Medium', 'Arial Narrow', Arial,
     sans-serif;
-  display: flex;
-  flex-direction: column;
-  width: 600px;
-  max-width: 100%;
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,6 +17,7 @@ img {
 }
 figure {
   width: 100%;
+  /* min-height: 60vh; */
   margin: 0;
 }
 .container {
@@ -40,4 +38,15 @@ figure {
 .button {
   cursor: pointer;
   padding: 20px;
+}
+
+.git-link {
+  /* align-self: flex-end; */
+  text-align: center;
+  text-decoration: none;
+  color: gray;
+  font-size: 10px;
+}
+.git-link:hover {
+  color: black;
 }
