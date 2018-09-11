@@ -1,4 +1,43 @@
+html {
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'BioRhyme', 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  width: 100%;
+  border: 2px solid black;
+}
+figure {
+  width: 100%;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  /* width: 90%; */
+}
+.button {
+  cursor: pointer;
+  padding: 20px;
 }
